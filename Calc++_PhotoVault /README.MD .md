@@ -58,7 +58,7 @@ Welcome to the Swift Steganography Calculator Calc++! This project combines the 
 
 ### Built With
 
-This Application is built with natively Swift & SwiftUI
+This Application is built natively with Swift & SwiftUI
 
 * [![MacOs][MacOs]][MacOS-url]
 * [![Swift][Swift]][Swift-url]
