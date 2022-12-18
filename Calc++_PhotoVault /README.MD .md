@@ -42,7 +42,7 @@
 ## About The Project
 
 
-(![App Preview](Images/AppPreview.png)
+![App Preview](Images/AppPreview.png
 
 Welcome to the Swift Steganography Calculator Calc++! This project combines the functionality of a standard calculator with the added feature of a hidden photo library, accessible only through the use of steganography techniques (a 5 digit pin). Built with Swift and SwiftUI, this application allows you to encrypt and decrypt images within the calculator interface, keeping your photos safe and secure. Whether you're looking to add an extra layer of security to your personal photos or just want to have some fun with steganography, this project is sure to be a unique and interesting addition to your portfolio. Below are instructions on how to build and run the code. Happy hiding!
 
