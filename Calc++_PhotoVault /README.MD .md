@@ -89,7 +89,7 @@ Getting started is fairly simple...
 
 - [x] Create UI
 - [x] Create Data Model
-- [ ] Implement Horzontial UI
+- [ ] Implement Horizontal UI
 - [ ] Implement Splash Screen Pin Code Entry 
 - [ ] Update Depreciated Code
  
