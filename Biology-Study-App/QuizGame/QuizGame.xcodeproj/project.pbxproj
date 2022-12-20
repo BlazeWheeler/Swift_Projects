@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C62628829517CF600A335AC /* OpenAISwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9C62628729517CF600A335AC /* OpenAISwift */; };
 		9CC5138128ADD66300234963 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CC50AB228ADD65A00234963 /* Assets.xcassets */; };
 		9CC5138228ADD66300234963 /* influencer.SFSymbol.svg in Resources */ = {isa = PBXBuildFile; fileRef = 9CC50AB428ADD65A00234963 /* influencer.SFSymbol.svg */; };
 		9CC5138328ADD66300234963 /* robot.SFSymbol.svg in Resources */ = {isa = PBXBuildFile; fileRef = 9CC50AB528ADD65A00234963 /* robot.SFSymbol.svg */; };
@@ -43,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C62628829517CF600A335AC /* OpenAISwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +132,9 @@
 			dependencies = (
 			);
 			name = QuizGame;
+			packageProductDependencies = (
+				9C62628729517CF600A335AC /* OpenAISwift */,
+			);
 			productName = QuizGame;
 			productReference = 9C3E993427BF9E6100808F4C /* QuizGame.app */;
 			productType = "com.apple.product-type.application";
@@ -158,6 +163,9 @@
 				Base,
 			);
 			mainGroup = 9C3E992B27BF9E6100808F4C;
+			packageReferences = (
+				9C62628629517CF600A335AC /* XCRemoteSwiftPackageReference "OpenAISwift" */,
+			);
 			productRefGroup = 9C3E993527BF9E6100808F4C /* Products */;
 			projectDirPath = "";
 			projectReferences = (
@@ -402,6 +410,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9C62628629517CF600A335AC /* XCRemoteSwiftPackageReference "OpenAISwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamrushy/OpenAISwift";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9C62628729517CF600A335AC /* OpenAISwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9C62628629517CF600A335AC /* XCRemoteSwiftPackageReference "OpenAISwift" */;
+			productName = OpenAISwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9C3E992C27BF9E6100808F4C /* Project object */;
 }

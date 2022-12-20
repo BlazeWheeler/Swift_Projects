@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+OpenAISwift in OpenAISwift, no dependencies
+OpenAISwift in OpenAISwift, depends on:
+OpenAISwift in OpenAISwift (explicit)
+QuizGame in QuizGame, depends on:
+OpenAISwift in OpenAISwift (explicit)

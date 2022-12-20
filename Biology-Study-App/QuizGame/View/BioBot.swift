@@ -6,10 +6,42 @@
 //
 
 import SwiftUI
+import OpenAISwift
+
+final class ViewModel: ObservableObject {
+    init() {}
+    
+    private var client: OpenAISwift?
+    
+    func setup() {
+        client = OpenAISwift(authToken: "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")
+    }
+    
+    func send(text: String, completion: @escaping (String) -> Void ) {
+        client?.sendCompletion(with: text, maxTokens: 500,
+                               completionHandler: { result in
+            switch result {
+            case .success(let model):
+                let output = model.choices.first?.text ?? ""
+                completion(output)
+            case.failure:
+                break
+            }
+        })
+    }
+}
+
+
 
 struct BioBot: View {
-    @State private var messageText = ""
-    @State var messages: [String] = ["Welcome To Bio Bot "]
+    
+    @ObservedObject var viewModel = ViewModel()
+    @State var messageText = ""
+    @State var messagesModels = [String]()
+    
+    
+   // @State private var messageText = ""
+    //@State var messages: [String] = ["Welcome To Bio Bot "]
     
     var body: some View {
         VStack {
@@ -25,7 +57,7 @@ struct BioBot: View {
             }
             ScrollView {
                 
-                ForEach(messages, id: \.self) { message in
+                ForEach(messagesModels, id: \.self) { message in
                     if message.contains("[USER]") {
                         let newMessage = message.replacingOccurrences(of: "[USER]", with: "")
                         HStack {
@@ -57,23 +89,29 @@ struct BioBot: View {
                 .background(Color.gray.opacity(0.10))
             
             HStack {
-                TextField("Ask a question...", text: $messageText)
+                TextField("Ask a biology question...", text: $messageText)
                     .padding()
                     .background(Color.gray.opacity(0.1))
                     .cornerRadius(10)
                     .onSubmit {
-                        
+                        /*
                         if(messageText.isEmpty != true ){
                             sendMessage(message: messageText)
                         }
+                      */
                        
                     }
                     
                 // If Textfeild is empty no message sent to ai
                 Button {
+                    /*
                     if(messageText.isEmpty != true ){
                         sendMessage(message: messageText)
                     }
+                     */
+                    
+                    
+                    send()
                 
                     
                 } label: {
@@ -93,16 +131,34 @@ struct BioBot: View {
         
         }
         .background(Color("ColorBG1"))
-        
+        .onAppear(){
+            viewModel.setup()
+        }
     }
+    
     func sendMessage(message: String){
         withAnimation{
-            messages.append("[USER]" + message)
+            messageText.append("[USER]" + message)
             self.messageText = ""
         }
+        
+        
         DispatchQueue.main.asyncAfter(deadline: .now() + 1){
             withAnimation {
-                messages.append(getBotResponse(message: message))
+                messageText.append(getBotResponse(message: message))
+            }
+        }
+    }
+    
+    func send() {
+        guard !messageText.trimmingCharacters(in: .whitespaces).isEmpty else {
+            return
+        }
+        messagesModels.append("[USER] \(messageText)")
+        viewModel.send(text: messageText) { response in
+            DispatchQueue.main.sync {
+                self.messagesModels.append("" + response)
+                self.messageText = ""
             }
         }
     }
