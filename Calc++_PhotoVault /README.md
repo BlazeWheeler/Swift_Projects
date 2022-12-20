@@ -133,7 +133,7 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 Blaze Wheeler - [@blazew](https://www.instagram.com/blazew/) - wheelerb2@duq.edu
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
