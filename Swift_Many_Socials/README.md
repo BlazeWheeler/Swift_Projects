@@ -23,7 +23,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/BlazeWheeler/Swift_Projects/">
+  <a href="https://github.com/BlazeWheeler/Swift_Projects/blob/main/Swift_Many_Socials/Images/swiftManySocial_Icon.png?raw=true">
     <img src="Images/" alt="Logo" width="80" height="80">
   </a>
 
@@ -48,7 +48,7 @@ A SwiftUI project that demonstrates the user interfaces of popular social media 
 
 
 
-![App Preview](Images/AppPreviewSwiftManySocials)
+![App Preview](Images/AppPreviewSwiftManySocials.png)
 
 
 
