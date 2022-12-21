@@ -23,8 +23,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/BlazeWheeler/Swift_Projects/blob/main/Swift_Many_Socials/Images/swiftManySocial_Icon.png?raw=true">
-    <img src="Images/" alt="Logo" width="80" height="80">
+  <a href="https://github.com/BlazeWheeler/Swift_Projects">
+    <img src="Images/swiftManySocial_Icon.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">BioBot</h3>
@@ -107,6 +107,14 @@ Getting started is fairly simple...
 - [x] Create Tinder UI
 - [x] Create Instagram UI
 - [ ] Create TikTok & Other UI
+
+
+<!-- Demo -->
+## Application Demo
+![App Preview](Images/AppDemo.gif)
+
+
+
 
 
 <!-- LICENSE -->
