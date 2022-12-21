@@ -1,7 +1,5 @@
 //
 //  ContentView.swift
-//  Swift Slot Machine
-//
 //  Created by blaze Wheeler on 10/17/21.
 //
 

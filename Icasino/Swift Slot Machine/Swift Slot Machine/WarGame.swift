@@ -1,14 +1,8 @@
 //
 //  WarGame.swift
 //  Swift Slot Machine
-//
 //  Created by blaze  on 12/21/22.
-//
-
-//
 //  ContentView.swift
-//  War
-//
 //  Created by blaze  on 12/21/22.
 //
 
@@ -29,7 +23,6 @@ struct WarGame: View {
             Image("Background")
                 .resizable()
                 .edgesIgnoringSafeArea(.top)
-                
             
             VStack {
               
@@ -50,17 +43,14 @@ struct WarGame: View {
                     
                     // Update Score Properties
                     if self.randNum1 > randNum2 {
-                        
                         processWin1(win1: false)
                     }
-                    
                     else if self.randNum2 > self.randNum1 {
-                        
                         processWin2(win2: false)
                     }
                 } label: {
                     Image("dealbutton")
-                        .renderingMode(.original)
+                    .renderingMode(.original)
                 }
                 
                 Spacer()
@@ -106,26 +96,22 @@ struct WarGame: View {
     }
     
     func processWin1( win1 :Bool = false ){
-        
         if self.randNum1 > randNum2 {
             let win1 = true
-            
             if win1 == true {
                 self.score1 += 1
             }
-            
         }
     }
         
-        func processWin2( win2 :Bool = false ){
+func processWin2( win2 :Bool = false ){
             
             if self.randNum1 < randNum2 {
                 let win2 = true
-                
                 if win2 == true {
                     self.score2 += 1
-                }
             }
+        }
     }
 }
 

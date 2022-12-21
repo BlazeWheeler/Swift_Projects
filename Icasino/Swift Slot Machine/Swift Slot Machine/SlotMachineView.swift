@@ -1,14 +1,8 @@
 //
 //  SlotMachine.swift
 //  Swift Slot Machine
-//
 //  Created by blaze  on 12/21/22.
-//
-
-//
-//  ContentView.swift
 //  Swift Slot Machine
-//
 //  Created by blaze Wheeler on 10/17/21.
 //
 
