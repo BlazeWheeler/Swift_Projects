@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9C05D1C8271BEF8E00B56F90 /* Swift Slot Machine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Slot Machine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C05D1C8271BEF8E00B56F90 /* Icasino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Icasino.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C05D1CB271BEF8E00B56F90 /* Swift_Slot_MachineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Slot_MachineApp.swift; sourceTree = "<group>"; };
 		9C05D1CD271BEF8E00B56F90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9C05D1CF271BEF9700B56F90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		9C05D1C9271BEF8E00B56F90 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9C05D1C8271BEF8E00B56F90 /* Swift Slot Machine.app */,
+				9C05D1C8271BEF8E00B56F90 /* Icasino.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,9 +81,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9C05D1C7271BEF8E00B56F90 /* Swift Slot Machine */ = {
+		9C05D1C7271BEF8E00B56F90 /* Icasino */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C05D1D7271BEF9700B56F90 /* Build configuration list for PBXNativeTarget "Swift Slot Machine" */;
+			buildConfigurationList = 9C05D1D7271BEF9700B56F90 /* Build configuration list for PBXNativeTarget "Icasino" */;
 			buildPhases = (
 				9C05D1C4271BEF8E00B56F90 /* Sources */,
 				9C05D1C5271BEF8E00B56F90 /* Frameworks */,
@@ -93,9 +93,9 @@
 			);
 			dependencies = (
 			);
-			name = "Swift Slot Machine";
+			name = Icasino;
 			productName = "Swift Slot Machine";
-			productReference = 9C05D1C8271BEF8E00B56F90 /* Swift Slot Machine.app */;
+			productReference = 9C05D1C8271BEF8E00B56F90 /* Icasino.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,7 +125,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9C05D1C7271BEF8E00B56F90 /* Swift Slot Machine */,
+				9C05D1C7271BEF8E00B56F90 /* Icasino */,
 			);
 		};
 /* End PBXProject section */
@@ -289,7 +289,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.blazewheeler.Swift-Slot-Machine";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blazewheeler.icasino;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -311,7 +311,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.blazewheeler.Swift-Slot-Machine";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blazewheeler.icasino;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -330,7 +330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C05D1D7271BEF9700B56F90 /* Build configuration list for PBXNativeTarget "Swift Slot Machine" */ = {
+		9C05D1D7271BEF9700B56F90 /* Build configuration list for PBXNativeTarget "Icasino" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C05D1D8271BEF9700B56F90 /* Debug */,
