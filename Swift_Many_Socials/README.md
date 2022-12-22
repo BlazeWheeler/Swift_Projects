@@ -24,13 +24,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/BlazeWheeler/Swift_Projects">
-    <img src="Images/swiftManySocial_Icon.png" alt="Logo" width="80" height="80">
+    <img src="Images/swiftManySocial.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">BioBot</h3>
+  <h3 align="center">Swift Many Socials</h3>
 
   <p align="center">
-   A Great Biology Study Resource
+   Popular UI examples in Swift!
     <br />
     </div>
 
