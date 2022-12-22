@@ -24,13 +24,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/BlazeWheeler/Swift_Projects">
-    <img src="Images/IcasinoIcon.png" alt="Logo" width="80" height="80">
+    <img src="Images/swiftManySocial.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Icasino</h3>
+  <h3 align="center">Swift Many Socials</h3>
 
   <p align="center">
-   Slot Machine & War Card Game in Swift!
+   Popular UI examples in Swift!
     <br />
     </div>
 
@@ -40,18 +40,34 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-Welcome to Icasino!
+Welcome Swift Many Socials!
 
-Icasino is a fun and interactive iOS app built using the Swift programming language and the SwiftUI framework. The app features a classic slot machine for users to try their luck, as well as a card game called War for users to play against the computer. With a sleek and user-friendly interface, Icasino is the perfect way to pass the time and potentially win some virtual rewards. Give it a try today!
+A SwiftUI project that demonstrates the user interfaces of popular social media apps! This project features recreations of the Tinder, Facebook, Snapchat, and Instagram interfaces, all built using the SwiftUI framework. Explore each app's unique features and design elements, and see how SwiftUI can be used to build beautiful and functional user interfaces. Whether you're a developer looking to learn more about SwiftUI or just interested in seeing how these popular apps are built, this project has something for everyone. Enjoy!
 
 
 
-<!-- Change  -->
-![App Preview](Images/IcasinoAppPreview.png)
+
+
+![App Preview](Images/AppPreviewSwiftManySocials.png)
 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+### Social Media UI's
+
+UIs exemplified in swift 
+
+* [![Instagram][Instagram]][MacOS-url]
+* [![Swift][Swift]][Swift-url]
+* [![Snapchat][Snapchat]][Snapchat-url]
+* [![Tinder][Tinder]][Tinder-url]
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ### Built With
 
@@ -86,12 +102,11 @@ Getting started is fairly simple...
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Create Slot Machine View
-- [x] Create Card Game (WAR) View
-- [ ] Add Other Card Games
-- [ ] Customize Tabview
-- [ ] Update deprecated animations 
-
+- [x] Create Snapchat UI
+- [x] Create Facebook UI
+- [x] Create Tinder UI
+- [x] Create Instagram UI
+- [ ] Create TikTok & Other UI
 
 
 <!-- Demo -->
