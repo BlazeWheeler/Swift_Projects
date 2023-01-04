@@ -46,7 +46,7 @@ This repository contains a collection of Swift projects. Each project includes a
 
 
 <!-- Change  -->
-![App Preview](Images/IcasinoAppPreview.png)
+![App Preview](Images/AppPreview.png)
 
 
 
