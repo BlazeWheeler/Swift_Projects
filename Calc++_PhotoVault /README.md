@@ -93,6 +93,8 @@ Getting started is fairly simple...
 - [ ] Implement Splash Screen Pin Code Entry 
 - [ ] Update Depreciated Code
  
+## Further Documentation
+ [](https://www.instagram.com/blazew/) 
 
 
 
