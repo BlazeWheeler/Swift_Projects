@@ -19,8 +19,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/BlazeWheeler/Swift_Projects/blob/main/Swift-Matrix-Rain/Images/MatrixRainIcon.png">
-    <img src="Images/Icon.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/BlazeWheeler/Swift_Projects/blob/main/Swift-Matrix-Rain">
+    <img src="Images/MatrixRainIcon.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Matrix Rain</h3>
