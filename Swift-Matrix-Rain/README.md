@@ -40,7 +40,7 @@
 
 
 
-Welcome to the Swift Matrix Rain! This project is a fun little animation. Happy hiding!
+Welcome to the Swift Matrix Rain! This project is a fun little animation. Happy coding!
 
 
 
