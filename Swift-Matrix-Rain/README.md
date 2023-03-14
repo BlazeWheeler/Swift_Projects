@@ -19,14 +19,14 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/BlazeWheeler/Swift_Projects/tree/main/Calc%2B%2B_PhotoVault%20">
+  <a href="https://github.com/BlazeWheeler/Swift_Projects/blob/main/Swift-Matrix-Rain/Images/MatrixRainIcon.png">
     <img src="Images/Icon.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Calc++</h3>
+  <h3 align="center">Matrix Rain</h3>
 
   <p align="center">
-    A Photo Vault Application Built In Swift!
+     Built In Swift!
     <br />
     </div>
 
@@ -40,11 +40,11 @@
 
 
 
-Welcome to the Swift Matrix Rain ! This project combines the functionality of a standard calculator with the added feature of a hidden photo library, accessible only through the use of steganography techniques (a 5 digit pin). Built with Swift and SwiftUI, this application allows you to encrypt and decrypt images within the calculator interface, keeping your photos safe and secure. Whether you're looking to add an extra layer of security to your personal photos or just want to have some fun with steganography, this project is sure to be a unique and interesting addition to your portfolio. Below are instructions on how to build and run the code. Happy hiding!
+Welcome to the Swift Matrix Rain! This project is a fun little animation. Happy hiding!
 
 
 
-![App Preview](Images/AppPreview.png)
+![App Preview](Images/MatrixRainGif.gif)
 
 
 
@@ -75,19 +75,10 @@ Getting started is fairly simple...
 * Download repository 
 * Open
   ```sh
-  Calc++.xcodeproj
+  Matrix Rain.xcodeproj
   ```
 * Build & Run
 
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Create UI
-- [x] Create Data Model
-- [ ] Implement Horizontal UI
-- [ ] Implement Splash Screen Pin Code Entry 
-- [ ] Update Depreciated Code
  
 
 
