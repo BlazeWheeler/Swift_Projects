@@ -42,7 +42,7 @@ Technologies used in this Repository
 * [![SwiftUI][SwiftUI-sheild]][SwiftUI-url]
 * [![OpenAI][OpenAI-sheild]][OpenAI-url]
 * [![Xcode-sheild][Xcode-sheild]][Xcode-url]
-* 
+  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
