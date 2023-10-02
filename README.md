@@ -1,24 +1,12 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+
 <a name="readme-top"></a>
 
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 [![Apple-Silicon-Shield]][Apple-Silicon-Shield-url]
 [![MIT License][license-shield]][license-url]
 [![Apple License][Apple-License]][Apple-License-url]
 
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![GitHub][GitHub-shield]][GitHub-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -34,21 +22,14 @@
     <br/>
     </div>
 
-
-
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Repository
 Welcome to My Swift Projects!
 
 This repository contains a collection of Swift projects. Each project includes a detailed README file with instructions on how to build and run the code. All of the code is open source and available for you to use and modify as you see fit. Happy coding!
 
-
 <!-- Change  -->
 ![App Preview](Images/AppPreview.png)
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -61,26 +42,10 @@ Technologies used in this Repository
 * [![SwiftUI][SwiftUI-sheild]][SwiftUI-url]
 * [![OpenAI][OpenAI-sheild]][OpenAI-url]
 * [![Xcode-sheild][Xcode-sheild]][Xcode-url]
-
-
-
-
+* 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-
-
-
-
-
-
-
-
 <!-- LICENSE -->
-
-
-
 # Released Under MIT License
 
 Copyright (c) 2022 Blaze Wheeler,
@@ -122,29 +87,15 @@ The Original Code and all software distributed under the License are distributed
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-
-
 <!-- CONTACT -->
 ## Contact
 
 Blaze Wheeler - [@blazew](https://www.instagram.com/blazew/) - wheelerb2@duq.edu
 
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
-
 
 [Apple-License]: https://img.shields.io/badge/LICENSE-ASPL-999999?style=for-the-badge&logo=apple&logoColor=white
 [Apple-License-url]: https://opensource.apple.com/apsl/
@@ -178,8 +129,3 @@ Blaze Wheeler - [@blazew](https://www.instagram.com/blazew/) - wheelerb2@duq.edu
 
 [Xcode-sheild]: https://img.shields.io/badge/Xcode-147EFB.svg?style=for-the-badge&logo=Xcode&logoColor=white 
 [Xcode-url]: https://developer.apple.com/xcode/
-
-
-
-
-
