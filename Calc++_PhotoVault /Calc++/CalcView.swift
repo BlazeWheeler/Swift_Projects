@@ -67,6 +67,8 @@ struct CalcView: View {
     @State var value = "0"
     @State var runningNumber = 0.0
     @State var currentOperation : Operation = .none
+    @Environment(\.scenePhase) var scenePhase
+        @State var blurRadius : CGFloat = 0
     
     // Create Passwork Var
     // Retrive from alert
@@ -153,7 +155,26 @@ struct CalcView: View {
                  NavigationLink(destination: GridView(), isActive: $navigated) {
                  EmptyView()
             }
-        }
+            }.blur(radius: blurRadius)
+                .onChange(of: scenePhase, perform: { value in
+                   
+                    switch value {
+                  
+                    case .active : withAnimation {
+                        
+                        blurRadius = 0
+                    }
+                    case .inactive: withAnimation {
+                       
+                        
+                        blurRadius = 15
+                        
+                    }
+                    case .background:
+                        blurRadius = 20
+                    @unknown default: print("Unknown")
+                    }
+                })
     }
 }
     func didTap(button: CalcButton) {

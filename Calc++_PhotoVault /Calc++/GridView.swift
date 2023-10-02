@@ -12,9 +12,12 @@ struct GridView: View {
     private static let initialColumns = 3
     @State private var isAddingPhoto = false
     @State private var isEditing = false
+    @State private var activity = false
 
     @State private var gridColumns = Array(repeating: GridItem(.flexible()), count: initialColumns)
     @State private var numColumns = initialColumns
+    @Environment(\.scenePhase) var scenePhase
+        @State var blurRadius : CGFloat = 0
     
     private var columnsTitle: String {
         gridColumns.count > 1 ? "\(gridColumns.count) Columns" : "1 Column"
@@ -58,6 +61,29 @@ struct GridView: View {
                 .padding()
             }
         }
+        .blur(radius: blurRadius)
+            .onChange(of: scenePhase, perform: { value in
+                
+                switch value {
+                    
+                case .active : withAnimation {
+                    
+                  
+                    
+                    blurRadius = 0
+                    
+                 
+                    
+                }
+                case .inactive: withAnimation { blurRadius = 15 }
+                case .background:
+                    blurRadius = 20
+                @unknown default: print("Unknown")
+                    
+                }
+            })
+        
+        
         .navigationBarTitle("Image Gallery")
         .navigationBarTitleDisplayMode(.inline)
         .sheet(isPresented: $isAddingPhoto) {
