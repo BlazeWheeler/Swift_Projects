@@ -38,10 +38,12 @@ This repository contains a collection of Swift projects. Each project includes a
 Technologies used in this Repository
 
 * [![MacOs][MacOs]][MacOS-url]
+* ![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white)
 * [![Swift][Swift]][Swift-url]
 * [![SwiftUI][SwiftUI-sheild]][SwiftUI-url]
 * [![OpenAI][OpenAI-sheild]][OpenAI-url]
 * [![Xcode-sheild][Xcode-sheild]][Xcode-url]
+
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
