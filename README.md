@@ -4,6 +4,7 @@
 [![Apple-Silicon-Shield]][Apple-Silicon-Shield-url]
 [![MIT License][license-shield]][license-url]
 [![Apple License][Apple-License]][Apple-License-url]
+![Duq-badge](https://custom-icon-badges.demolab.com/badge/-Duquesne%20University-ba0c2f?style=for-the-badge&logo=duquesne_dukes_logo1)
 
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![GitHub][GitHub-shield]][GitHub-url]
